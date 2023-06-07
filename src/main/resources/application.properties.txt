@@ -1,0 +1,13 @@
+// Configure Database connection
+spring.datasource.driverClassName=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://localhost:5432/surveybox_db
+spring.datasource.username=postgres
+spring.datasource.password=root
+
+spring.jpa.hibernate.ddl-auto=update
+#update create create-drop validate
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.showSql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+server.port=8081
